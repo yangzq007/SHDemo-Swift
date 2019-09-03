@@ -10,6 +10,7 @@
 		7B30A0D922B0E8420080A98A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B30A0D822B0E8420080A98A /* AppDelegate.swift */; };
 		7B30A0E022B0E8430080A98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B30A0DF22B0E8430080A98A /* Assets.xcassets */; };
 		7B30A0E322B0E8430080A98A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B30A0E122B0E8430080A98A /* LaunchScreen.storyboard */; };
+		7B9CB6C9231E9A4100750A94 /* SHSynchronizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CB6C8231E9A4100750A94 /* SHSynchronizedViewController.swift */; };
 		7BA3E63922CB257E00734D16 /* SHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA3E63822CB257E00734D16 /* SHBaseViewController.swift */; };
 		7BA3E63B22CB264600734D16 /* SHMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA3E63A22CB264600734D16 /* SHMainViewController.swift */; };
 		7BA3E63E22CB324300734D16 /* SHTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA3E63D22CB324300734D16 /* SHTestViewController.swift */; };
@@ -23,6 +24,7 @@
 		7B30A0DF22B0E8430080A98A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B30A0E222B0E8430080A98A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B30A0E422B0E8430080A98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B9CB6C8231E9A4100750A94 /* SHSynchronizedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHSynchronizedViewController.swift; sourceTree = "<group>"; };
 		7BA3E63822CB257E00734D16 /* SHBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHBaseViewController.swift; sourceTree = "<group>"; };
 		7BA3E63A22CB264600734D16 /* SHMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMainViewController.swift; sourceTree = "<group>"; };
 		7BA3E63D22CB324300734D16 /* SHTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHTestViewController.swift; sourceTree = "<group>"; };
@@ -84,9 +86,18 @@
 			path = "SHDemo-Swift";
 			sourceTree = "<group>";
 		};
+		7B9CB6C7231E9A1E00750A94 /* Synchronized */ = {
+			isa = PBXGroup;
+			children = (
+				7B9CB6C8231E9A4100750A94 /* SHSynchronizedViewController.swift */,
+			);
+			path = Synchronized;
+			sourceTree = "<group>";
+		};
 		7BA3E63622CB24C700734D16 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				7B9CB6C7231E9A1E00750A94 /* Synchronized */,
 				7BA3E63F22CB389900734D16 /* DynamicInit */,
 				7BA3E63C22CB322A00734D16 /* Test */,
 				7BA3E63A22CB264600734D16 /* SHMainViewController.swift */,
@@ -227,6 +238,7 @@
 				7BA3E63922CB257E00734D16 /* SHBaseViewController.swift in Sources */,
 				7B30A0D922B0E8420080A98A /* AppDelegate.swift in Sources */,
 				7BA3E63E22CB324300734D16 /* SHTestViewController.swift in Sources */,
+				7B9CB6C9231E9A4100750A94 /* SHSynchronizedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
