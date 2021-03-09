@@ -71,6 +71,7 @@ class SHMainViewController: SHBaseViewController, UITableViewDataSource, UITable
     func initData() -> Void {
         self.arrContent = [
             ["title":"测试视图","vc":"SHTestViewController"],
+            ["title":"不规则mask","vc":"UnregularMaskViewController"],
             ["title":"OC宏定义转换","vc":"SHConstViewController"],
             ["title":"RespondsToSelector","vc":"SHRespondsToSelectorViewController"],
             ["title":"实现OC的synchronized","vc":"SHSynchronizedViewController"],

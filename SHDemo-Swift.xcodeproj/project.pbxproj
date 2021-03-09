@@ -13,6 +13,7 @@
 		7B31D76E238FC9A3002401B9 /* SHConstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B31D76D238FC9A3002401B9 /* SHConstViewController.swift */; };
 		7B31D770238FC9DB002401B9 /* SHConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B31D76F238FC9DB002401B9 /* SHConst.swift */; };
 		7B5464992327570400BB4505 /* SHRespondsToSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5464982327570400BB4505 /* SHRespondsToSelectorViewController.swift */; };
+		7B67905325ED232700B1BF7E /* UnregularMaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B67905225ED232700B1BF7E /* UnregularMaskViewController.swift */; };
 		7B9CB6C9231E9A4100750A94 /* SHSynchronizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CB6C8231E9A4100750A94 /* SHSynchronizedViewController.swift */; };
 		7BA3E63922CB257E00734D16 /* SHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA3E63822CB257E00734D16 /* SHBaseViewController.swift */; };
 		7BA3E63B22CB264600734D16 /* SHMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA3E63A22CB264600734D16 /* SHMainViewController.swift */; };
@@ -30,6 +31,7 @@
 		7B31D76D238FC9A3002401B9 /* SHConstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHConstViewController.swift; sourceTree = "<group>"; };
 		7B31D76F238FC9DB002401B9 /* SHConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHConst.swift; sourceTree = "<group>"; };
 		7B5464982327570400BB4505 /* SHRespondsToSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHRespondsToSelectorViewController.swift; sourceTree = "<group>"; };
+		7B67905225ED232700B1BF7E /* UnregularMaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnregularMaskViewController.swift; sourceTree = "<group>"; };
 		7B9CB6C8231E9A4100750A94 /* SHSynchronizedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHSynchronizedViewController.swift; sourceTree = "<group>"; };
 		7BA3E63822CB257E00734D16 /* SHBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHBaseViewController.swift; sourceTree = "<group>"; };
 		7BA3E63A22CB264600734D16 /* SHMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMainViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,14 @@
 			path = RespondsToSelector;
 			sourceTree = "<group>";
 		};
+		7B67905125ED232700B1BF7E /* UnregularMask */ = {
+			isa = PBXGroup;
+			children = (
+				7B67905225ED232700B1BF7E /* UnregularMaskViewController.swift */,
+			);
+			path = UnregularMask;
+			sourceTree = "<group>";
+		};
 		7B9CB6C7231E9A1E00750A94 /* Synchronized */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +130,7 @@
 		7BA3E63622CB24C700734D16 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				7B67905125ED232700B1BF7E /* UnregularMask */,
 				7B31D76C238FC96A002401B9 /* Const */,
 				7B546497232756CE00BB4505 /* RespondsToSelector */,
 				7B9CB6C7231E9A1E00750A94 /* Synchronized */,
@@ -266,6 +277,7 @@
 				7B31D770238FC9DB002401B9 /* SHConst.swift in Sources */,
 				7B5464992327570400BB4505 /* SHRespondsToSelectorViewController.swift in Sources */,
 				7B9CB6C9231E9A4100750A94 /* SHSynchronizedViewController.swift in Sources */,
+				7B67905325ED232700B1BF7E /* UnregularMaskViewController.swift in Sources */,
 				7B31D76E238FC9A3002401B9 /* SHConstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
